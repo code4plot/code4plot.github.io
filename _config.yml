@@ -22,8 +22,8 @@ title: plot.
 email: mail4plot@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   plotting for a better future.
-baseurl: "code4plot.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://code4plot.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  code4plot
 linkedin_username: jason-lai-kh
 
