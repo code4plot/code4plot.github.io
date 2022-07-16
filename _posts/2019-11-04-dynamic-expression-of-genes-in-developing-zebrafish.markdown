@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dynamic expression of genes in developing zebrafish"
-date: "2022-07-11 17:47:54 +0800"
+date: "2019-11-04 17:47:54 +0800"
 categories: biology shiny
 ---
 

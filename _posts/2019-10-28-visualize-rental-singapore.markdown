@@ -2,7 +2,7 @@
 layout: post
 title:  "Visualizing Rental Prices in Singapore"
 date:   2019-10-28 16:09:12 +0800
-categories: real-estate shiny
+categories: real_estate shiny
 author: Jason Lai
 ---
 {% include image.html url="/assets/img/rental_191028.png" description="Rental (psf) statistics of 'The Hillford' condominium in Singapore.  Individual points represents a tenancy contract signed on the given quarter.  Solid lines represent the median (black) and quartiles (grey) respectively." %}
