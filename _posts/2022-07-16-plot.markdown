@@ -1,0 +1,9 @@
+---
+layout: post
+title: "plot"
+date: "2022-07-16 17:56:30 +0800"
+categories: microthoughts
+author: "Jason Lai"
+---
+
+A picture paints a thousand words; A plot explains a thousand data points.
