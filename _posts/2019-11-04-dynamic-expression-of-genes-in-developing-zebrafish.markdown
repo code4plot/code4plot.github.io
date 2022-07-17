@@ -3,6 +3,7 @@ layout: post
 title: "Dynamic expression of genes in developing zebrafish"
 date: "2019-11-04 17:47:54 +0800"
 categories: biology shiny
+author: "Jason Lai"
 ---
 
 I studied the development of the cardiovascular system using the zebrafish for my Ph. D.. Under the supervision of Didier Stainier, I have been fascinated by this research model. I recalled sitting by a microscope for an entire day, just to witness a fertilized egg morph into a zebrafish embryo. You can find many of these videos on Youtube:  
