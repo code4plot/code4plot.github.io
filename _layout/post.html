@@ -3,35 +3,73 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="{{ page.title }} — case study" />
   <title>{{ page.title }} — {{ site.title }}</title>
+
+  <!-- Fonts (same as home) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Shared styles -->
   <link rel="stylesheet" href="/assets/style.css" />
 </head>
+
 <body>
+  <!-- Header (identical to home) -->
   <header class="header">
     <div class="container header__inner">
       <a class="brand" href="/">
         <span class="brand__dot" aria-hidden="true"></span>
         <span>{{ site.title }}</span>
       </a>
+
       <nav class="nav">
         <a href="/#projects">Projects</a>
         <a href="/#contact">Contact</a>
+        <a class="nav__cta" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main class="section">
-    <div class="container">
-      <article class="card">
-        <h1 style="margin-top:0">{{ page.title }}</h1>
-        <p class="muted" style="margin:6px 0 18px">
-          {{ page.date | date: "%b %d, %Y" }}
-        </p>
-        <div class="prose">
-          {{ content }}
+  <!-- Main -->
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <!-- Post Card -->
+        <article class="card post">
+          <header class="post__header">
+            <h1 class="post__title">{{ page.title }}</h1>
+            {% if page.subtitle %}
+              <p class="muted post__subtitle">{{ page.subtitle }}</p>
+            {% endif %}
+            <p class="muted post__meta">
+              {{ page.date | date: "%b %d, %Y" }}
+            </p>
+          </header>
+
+          <div class="prose">
+            {{ content }}
+          </div>
+        </article>
+
+        <!-- Back link -->
+        <div style="margin-top:16px">
+          <a class="link" href="/#projects">← Back to projects</a>
         </div>
-      </article>
-    </div>
+
+      </div>
+    </section>
   </main>
+
+  <!-- Footer (same visual weight as home) -->
+  <footer class="footer">
+    <div class="container muted">
+      <span>© {{ site.time | date: "%Y" }} {{ site.title }}</span>
+      <span>•</span>
+      <span>Built with Markdown • Hosted on GitHub Pages</span>
+    </div>
+  </footer>
 </body>
 </html>
