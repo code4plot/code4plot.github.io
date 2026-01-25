@@ -4,7 +4,8 @@ window.PROJECTS = [
     description: "Extracting and Visualizing public home rental dataset.",
     tags: ["Data Visualization", "Analytics", "Shiny"],
     links: {
-      github: "https://plotproject.shinyapps.io/singapore_rental/",
+      dashboard: "https://plotproject.shinyapps.io/singapore_rental/",
+      github: "https://github.com/code4plot/ura_rental_trends",
       writeup: "_posts/2025-04-16-singapore-rental-price-trends.md"
     }
   },

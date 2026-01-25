@@ -63,4 +63,4 @@ https://plotproject.shinyapps.io/singapore_rental/
 - Shiny
 
 ## Repository
-👉 https://github.com/YOUR_USERNAME/singapore-rental-price-trends
+👉 https://github.com/code4plot/ura_rental_trends
