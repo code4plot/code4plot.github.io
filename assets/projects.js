@@ -5,7 +5,7 @@ window.PROJECTS = [
     tags: ["Data Visualization", "Analytics", "Shiny"],
     links: {
       github: "https://plotproject.shinyapps.io/singapore_rental/",
-      writeup: "posts/2025-04-16-singapore-rental-price-trends.md"
+      writeup: "_posts/2025-04-16-singapore-rental-price-trends.md"
     }
   },
   {
