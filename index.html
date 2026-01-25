@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Jason's Data Science portfolio page." />
+  <title>Jason Lai — Data Scientist (Senior Manager)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span>Jason Lai</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="nav__cta" href="https://github.com/code4plot" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <h1>Data Scientist - turning data into solutions.</h1>
+          <p class="muted">
+            Seasoned Data Science practitioner with focus in <strong>ML</strong>, <strong>analytics</strong>, <strong>data visualization</strong> and <strong>experimentation</strong>.
+            Here are a few projects with outcomes, tradeoffs, and code.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button" href="#projects">View projects</a>
+            <a class="button button--ghost" href="assets/YourName_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          </div>
+
+          <div class="hero__meta muted">
+            <span>📍 Singapore (UTC+8)</span>
+            <span>•</span>
+            <span>Python • R • SQL • ML • Analytics • Experimentation </span>
+          </div>
+        </div>
+
+        <aside class="card hero__card">
+          <div class="profile">
+            <img class="profile__img" src="assets/avatar.jpg" alt="Portrait of Your Name" onerror="this.style.display='none'">
+            <div>
+              <div class="profile__name">Jason Lai</div>
+              <div class="muted">Senior Data Science Manager</div>
+            </div>
+          </div>
+
+          <ul class="list">
+            <li><span class="pill">Focus</span> ML, analytics, data visualization, experimentation </li>
+            <li><span class="pill">Tools</span> Python, R, SQL, sklearn, tensorflow, shiny </li>
+            <li><span class="pill">Industry</span> Pharmaceutical, Finance </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="controls">
+          <input id="search" class="input" type="search" placeholder="Search projects (e.g., churn, NLP, forecasting)" />
+          <select id="tagFilter" class="select">
+            <option value="all">All tags</option>
+          </select>
+        </div>
+
+        <div id="projectGrid" class="grid3"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="card contact">
+          <div>
+            <h2>Contact</h2>
+            <p class="muted">If you’re serious, make it easy for people to reach you.</p>
+          </div>
+          <div class="contact__links">
+            <a class="button button--ghost" href="mailto:you@email.com">Email</a>
+            <a class="button button--ghost" href="https://www.linkedin.com/in/YOUR_HANDLE/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container muted">
+      <span>© <span id="year"></span> Your Name</span>
+      <span>•</span>
+      <span>Built with plain HTML/CSS • Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="assets/projects.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
