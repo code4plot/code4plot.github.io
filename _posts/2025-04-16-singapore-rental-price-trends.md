@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Singapore Rental Price Trends Dashboard"
+---
+
 # Singapore Rental Price Trends Dashboard
 
 ## Problem
@@ -18,7 +23,7 @@ https://eservice.ura.gov.sg/maps/api/#introduction
 - Built a reproducible pipeline to support ongoing data refreshes
 
 ### Data Wrangling
-- Cleaned and reshaped raw tables using a *tidy data* approach
+- Cleaned and reshaped raw tables using *tidyr* approach
 - Normalized rental prices and floor area to support multiple price representations
 - Structured data for flexible time-series aggregation
 
