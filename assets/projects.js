@@ -1,5 +1,13 @@
 window.PROJECTS = [
   {
+    title: "Automating Fabric Visualization with OpenAI Image Editing",
+    description: "Evaluated OpenAI image editing to automate fabric previews on tailored suits, identifying where generative realism works, and opportunities for improvements.",
+    tags: ["computer vision", "openAI", "generative AI", "fashion"],
+    links: {
+      writeup: "/posts/dynamic-expression-of-genes-in-developing-zebrafish/"
+    }
+  },
+  {
     title: "Singapore Rental Price trends",
     description: "Extracting and Visualizing public home rental dataset.",
     tags: ["Data Visualization", "Analytics", "Shiny"],
@@ -10,20 +18,13 @@ window.PROJECTS = [
     }
   },
   {
-    title: "Forecasting Demand with Probabilistic Models",
-    description: "Implemented hierarchical time series forecasting; reduced stockouts by 9% in pilot simulation.",
-    tags: ["Forecasting", "Time Series", "Bayesian"],
+    title: "Dynamic Gene Expression During Zebrafish Development",
+    description: "RNA-seq analysis + interactive Shiny dashboard to visualize temporal gene expression during development.",
+    tags: ["Data Visualization", "Analytics", "Development", "zebrafish"],
     links: {
-      github: "https://github.com/YOUR_USERNAME/demand-forecasting"
-    }
-  },
-  {
-    title: "Experimentation: Pricing A/B Test Analysis",
-    description: "Designed and analyzed A/B tests with guardrails and sequential checks; shipped decision framework.",
-    tags: ["Experimentation", "Causal", "SQL"],
-    links: {
-      github: "https://github.com/YOUR_USERNAME/ab-testing-toolkit",
-      deck: "https://drive.google.com/your-slide-link"
+      dashboard: "https://plotproject.shinyapps.io/zfish_expression/",
+      github: "https://github.com/code4plot/plot/tree/master/biology/zfish_expression",
+      writeup: "/posts/dynamic-expression-of-genes-in-developing-zebrafish/"
     }
   }
 ];
