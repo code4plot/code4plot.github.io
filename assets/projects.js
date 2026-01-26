@@ -4,7 +4,7 @@ window.PROJECTS = [
     description: "Evaluated OpenAI image editing to automate fabric previews on tailored suits, identifying where generative realism works, and opportunities for improvements.",
     tags: ["computer vision", "openAI", "generative AI", "fashion"],
     links: {
-      writeup: "/posts/dynamic-expression-of-genes-in-developing-zebrafish/"
+      writeup: "/posts/automating-fabric-visualization-with-openaI-image-editing/"
     }
   },
   {
