@@ -60,7 +60,7 @@ High-level idea:
 
 | Fashion model | Fabric design |
 |--------------|---------------|
-| [Base fashion model](../assets/img/fabric-ai/model_sample.png) | [Fabric design](../assets/img/fabric-ai/fabric_sample.png) |
+| ![Base fashion model](/assets/img/fabric-ai/model_sample.png) | ![Fabric design](/assets/img/fabric-ai/fabric_sample.png) |
 
 Left: Base fashion model (model_sample.png)
 Right: Fabric design sample (fabric_sample.png)
@@ -104,7 +104,7 @@ fs.writeFileSync("test_out.png", image_bytes);
 
 **Observations**
 
-[GPT image output](../assets/img/fabric-ai/test_output_1.png)
+![GPT image output](/assets/img/fabric-ai/test_output_1.png)
 
 - The jacket fabric application was visually convincing
 - Key tailoring details were largely preserved:
@@ -135,7 +135,7 @@ Thus, providing an **image mask** that explicitly defines the editable region (t
 
 ### 5. Masked Setup
 
-[Fashion model mask](../assets/img/fabric-ai/jacket_mask.png)
+![Fashion model mask](/assets/img/fabric-ai/jacket_mask.png)
 
 - Created a binary mask:
   - white = jacket region (editable)
@@ -181,7 +181,7 @@ Thus, providing an **image mask** that explicitly defines the editable region (t
 
 ### 6. Masked Result
 
-[GPT image output with masking](../assets/img/fabric-ai/test_output_2.png)
+![GPT image output with masking](/assets/img/fabric-ai/test_output_2.png)
 
 **What improved**
 - Fabric placement remained convincing
