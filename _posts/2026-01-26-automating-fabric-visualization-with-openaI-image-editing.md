@@ -60,7 +60,7 @@ High-level idea:
 
 | Fashion model | Fabric design |
 |--------------|---------------|
-| ![Base fashion model](../assets/img/fabric-ai/model_sample.png) | ![Fabric design](../assets/img/fabric-ai/fabric_sample.png) |
+| [Base fashion model](../assets/img/fabric-ai/model_sample.png) | [Fabric design](../assets/img/fabric-ai/fabric_sample.png) |
 
 Left: Base fashion model (model_sample.png)
 Right: Fabric design sample (fabric_sample.png)
@@ -104,7 +104,7 @@ fs.writeFileSync("test_out.png", image_bytes);
 
 **Observations**
 
-![GPT image output](../assets/img/fabric-ai/test_output_1.png)
+[GPT image output](../assets/img/fabric-ai/test_output_1.png)
 
 - The jacket fabric application was visually convincing
 - Key tailoring details were largely preserved:
@@ -127,7 +127,7 @@ Prompt-only control is insufficient for isolating edits to a specific garment re
 
 ### 4. Hypothesis
 
-According to the ![OpenAI API's documentation](https://platform.openai.com/docs/api-reference/images/createEdit?lang=node.js#images_createedit-mask), the optional mask will define the area for editing.  
+According to the [OpenAI API's documentation](https://platform.openai.com/docs/api-reference/images/createEdit?lang=node.js#images_createedit-mask), the optional mask will define the area for editing.  
 
 Thus, providing an **image mask** that explicitly defines the editable region (the jacket) should constrain the model’s edits and prevent unintended changes.
 
@@ -135,7 +135,7 @@ Thus, providing an **image mask** that explicitly defines the editable region (t
 
 ### 5. Masked Setup
 
-![Fashion model mask](../assets/img/fabric-ai/jacket_mask.png)
+[Fashion model mask](../assets/img/fabric-ai/jacket_mask.png)
 
 - Created a binary mask:
   - white = jacket region (editable)
@@ -181,7 +181,7 @@ Thus, providing an **image mask** that explicitly defines the editable region (t
 
 ### 6. Masked Result
 
-![GPT image output with masking](../assets/img/fabric-ai/test_output_2.png)
+[GPT image output with masking](../assets/img/fabric-ai/test_output_2.png)
 
 **What improved**
 - Fabric placement remained convincing
@@ -233,7 +233,7 @@ Even with an explicit mask, the model does not strictly treat masked-out regions
 Potential improvements to explore:
 - Give more specific prompts including instructions to not alter the fashion model.
 - Try providing only the Jacket silhouette to input (will require a multi-step pipeline to then fit it on a base fashion model).
-- Try other open source models including ![IMAGGarment](https://github.com/muzishen/IMAGGarment)
+- Try other open source models including [IMAGGarment](https://github.com/muzishen/IMAGGarment)
 
 Tech considerations:
 - Integrate the simple POC script to a database of the client's fabric catalog.
