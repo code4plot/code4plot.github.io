@@ -1,5 +1,14 @@
 window.PROJECTS = [
   {
+    title: "Automated KTMB Ticket Checker with Telegram Remote Control",
+    description: "Two-service GCP architecture using Playwright browser automation to monitor KTMB shuttle availability between JB Sentral and Woodlands CIQ, with a Telegram bot for remote control.",
+    tags: ["automation", "GCP", "Playwright", "Telegram", "Python"],
+    links: {
+      github: "https://github.com/code4plot/ktmb-checker",
+      writeup: "/posts/building-automated-ktmb-checker-with-telegram-control/"
+    }
+  },
+  {
     title: "Automating Fabric Visualization with OpenAI Image Editing",
     description: "Evaluated OpenAI image editing to automate fabric previews on tailored suits, identifying where generative realism works, and opportunities for improvements.",
     tags: ["computer vision", "openAI", "generative AI", "fashion"],
