@@ -1,5 +1,14 @@
 window.PROJECTS = [
   {
+    title: "AI Tooling for Newborn Journaling",
+    description: "A Nanoclaw agent on a Raspberry Pi that turns Telegram voice and text messages about a newborn into structured rows in a Google Sheet via a scoped Apps Script API, and answers questions about the logged data.",
+    tags: ["AI agents", "Nanoclaw", "Telegram", "Google Sheets", "Apps Script"],
+    links: {
+      github: "https://github.com/code4plot/baby-journal",
+      writeup: "/posts/newborn-journal-nanoclaw/"
+    }
+  },
+  {
     title: "Automated KTMB Ticket Checker with Telegram Remote Control",
     description: "Two-service GCP architecture using Playwright browser automation to monitor KTMB shuttle availability between JB Sentral and Woodlands CIQ, with a Telegram bot for remote control.",
     tags: ["automation", "GCP", "Playwright", "Telegram", "Python"],
